@@ -232,6 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511484127}
   - component: {fileID: 511484126}
+  - component: {fileID: 511484128}
   m_Layer: 0
   m_Name: VZombie
   m_TagString: Untagged
@@ -303,6 +304,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &511484128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511484125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb479228abdcca34c9a03c7ccef895a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrol: []
+  moveSpeed: 0
+  rotateSpeed: 2
 --- !u!1001 &729864027
 PrefabInstance:
   m_ObjectHideFlags: 0
