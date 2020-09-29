@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            constantSpeed = 6;
+            constantSpeed = 8;
         }
         else
         {
