@@ -6,7 +6,7 @@ public class Zombie : MonoBehaviour
 {
     public Transform[] patrol;
     private int Currentpoint;
-    public float moveSpeed; public float rotateSpeed = 2.0f;
+    public float moveSpeed; public float rotateSpeed = 1.0f;
 
     private bool rotating;
 

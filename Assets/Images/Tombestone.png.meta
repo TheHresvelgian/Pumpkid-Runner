@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: f3223c66cd0cf3147b18945809a90df7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2521988005210744068
+    second: Tombestone_0
+  - first:
+      213: 3212614289120304965
+    second: Tombestone_1
+  - first:
+      213: -6398852016608099737
+    second: Tombestone_2
+  - first:
+      213: 8908232429117560715
+    second: Tombestone_3
+  - first:
+      213: -7769594540352573607
+    second: Tombestone_4
+  - first:
+      213: -7627671993698557842
+    second: Tombestone_5
+  - first:
+      213: -8585565346081861947
+    second: Tombestone_6
+  - first:
+      213: 8431863487554114174
+    second: Tombestone_7
+  - first:
+      213: -5933400073487327747
+    second: Tombestone_8
+  - first:
+      213: -2661750016643031927
+    second: Tombestone_9
+  - first:
+      213: -2666612955791739764
+    second: Tombestone_10
+  - first:
+      213: 6817648254101035963
+    second: Tombestone_11
+  - first:
+      213: -5556954454761925798
+    second: Tombestone_12
+  - first:
+      213: 3866798418364825430
+    second: Tombestone_13
+  - first:
+      213: 5216304860479056704
+    second: Tombestone_14
+  - first:
+      213: 854316448270967126
+    second: Tombestone_15
+  - first:
+      213: 7176385624296813727
+    second: Tombestone_16
+  - first:
+      213: -5797694576331842177
+    second: Tombestone_17
+  - first:
+      213: 3393886554042880045
+    second: Tombestone_18
+  - first:
+      213: 2767288542233084374
+    second: Tombestone_19
+  - first:
+      213: -3678822735170557186
+    second: Tombestone_20
+  - first:
+      213: 755624889143507068
+    second: Tombestone_0
+  - first:
+      213: 1370326259485433482
+    second: Tombestone_1
+  - first:
+      213: 3303448041209148800
+    second: Tombestone_2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tombestone_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 185
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78b7dc45d48c7a00800000000000000
+      internalID: 755624889143507068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombestone_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 185
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ed4030970640310800000000000000
+      internalID: 1370326259485433482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombestone_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 25
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0853b36bd7438dd20800000000000000
+      internalID: 3303448041209148800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
