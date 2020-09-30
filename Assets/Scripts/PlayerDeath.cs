@@ -5,15 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour
 {
+    public int health = 3;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Deadly"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+           health --;
         }
-        if (collision.CompareTag("Enemy"))
+        if (health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
+       
+    }
+    private void Update()
+    {
+        print(health);
     }
 }
