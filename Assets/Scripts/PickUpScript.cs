@@ -9,22 +9,22 @@ public class PickUpScript : MonoBehaviour
     {
         if (other.CompareTag("CandyCorn"))
         {
-            _score = _score+5;
+            _score = _score+1;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Lollipop"))
         {
-            _score = _score+10;
+            _score = _score+3;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Schmores"))
         {
-            _score = _score+25;
+            _score = _score+5;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("KvikkLunsj"))
         {
-            _score = _score+50;
+            _score = _score+10;
             Destroy(other.gameObject);
         }
     }
