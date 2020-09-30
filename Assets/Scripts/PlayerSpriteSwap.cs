@@ -8,6 +8,7 @@ public class PlayerSpriteSwap : MonoBehaviour
     public Sprite mediumHealth; // Displaying sprite for medium health.
     public Sprite fullHealth; // Displaying sprite for full health
     public PlayerDeath playerDeath;
+    private Animator animator;
     
     
 
@@ -16,6 +17,7 @@ public class PlayerSpriteSwap : MonoBehaviour
     {
         // Grab your sprite renderer from your GameObject.
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
 
     }
 
@@ -26,15 +28,18 @@ public class PlayerSpriteSwap : MonoBehaviour
         
         if (playerDeath.health == 1)
         {
-            spriteRenderer.sprite = lowHealth;
+            animator.SetInteger("health", 1);
+            print("Animating1");
         }
         else if (playerDeath.health == 2)
         {
-            spriteRenderer.sprite = mediumHealth;
+            animator.SetInteger("health", 2);
+            print("Animating2");
         }
         else
         {
-            spriteRenderer.sprite = fullHealth;
+            animator.SetInteger("health", 3);
+            print("Animating3");
         }
     }
 }
