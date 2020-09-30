@@ -36,10 +36,14 @@ public class PlayerSpriteSwap : MonoBehaviour
             animator.SetInteger("health", 2);
             print("Animating2");
         }
-        else
+        else if (playerDeath.health == 3)
         {
             animator.SetInteger("health", 3);
             print("Animating3");
+        }
+        if (playerDeath.health == 0)
+        {
+            animator.SetInteger("health", 0);
         }
     }
 }

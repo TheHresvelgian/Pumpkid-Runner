@@ -19,14 +19,14 @@ public class PlayerDeath : MonoBehaviour
             Destroy(collision.gameObject);
             print("health");
         }
-        if (health <= 0)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
        
     }
     private void Update()
     {
         print(health);
+    }
+    public void Death ()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
