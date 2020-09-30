@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: 4552a7e0597251941849b7e0ec21fae9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7762084316080760229
+    second: PumpKid3HSprite_0
+  - first:
+      213: -5111914576072019869
+    second: PumpKid3HSprite_1
+  - first:
+      213: -3253685541597435086
+    second: PumpKid3HSprite_2
+  - first:
+      213: 7084569908121735473
+    second: PumpKid3HSprite_3
+  - first:
+      213: -6745092676850011950
+    second: PumpKid3HSprite_4
+  - first:
+      213: 3158684581884983523
+    second: PumpKid3HSprite_5
+  - first:
+      213: -3601801889428803685
+    second: PumpKid3HSprite_6
+  - first:
+      213: 6357321955272813059
+    second: PumpKid3HSprite_7
+  - first:
+      213: 8665033297243854966
+    second: PumpKid3HSprite_8
+  - first:
+      213: -5213078114089523058
+    second: PumpKid3HSprite_9
+  - first:
+      213: 8902949160261919109
+    second: PumpKid3HSprite_10
+  - first:
+      213: 5814871215962996099
+    second: PumpKid3HSprite_11
+  - first:
+      213: 3596495604111554830
+    second: PumpKid3HSprite_12
+  - first:
+      213: -7442657219265680564
+    second: PumpKid3HSprite_13
+  - first:
+      213: 4094352751698761033
+    second: PumpKid3HSprite_14
+  - first:
+      213: 6092944663091233148
+    second: PumpKid3HSprite_15
+  - first:
+      213: -3612130873147328621
+    second: PumpKid3HSprite_16
+  - first:
+      213: -4460057349765678200
+    second: PumpKid3HSprite_17
+  - first:
+      213: -430572032351686402
+    second: PumpKid3HSprite_18
+  - first:
+      213: 6192415652089348935
+    second: PumpKid3HSprite_19
+  - first:
+      213: -1519382468893256144
+    second: PumpKid3HSprite_20
+  - first:
+      213: 7856961499713713998
+    second: PumpKid3HSprite_21
+  - first:
+      213: -7663937601887392762
+    second: PumpKid3HSprite_22
+  - first:
+      213: 608706221501542970
+    second: PumpKid3HSprite_23
+  - first:
+      213: -8186869324771393778
+    second: PumpKid3HSprite_24
+  - first:
+      213: -4644406581923001457
+    second: PumpKid3HSprite_25
+  - first:
+      213: 4108154788528350204
+    second: PumpKid3HSprite_26
+  - first:
+      213: 1174667835481404986
+    second: PumpKid3HSprite_27
+  - first:
+      213: 7037264695250299856
+    second: PumpKid3HSprite_28
+  - first:
+      213: -1041934115806544845
+    second: PumpKid3HSprite_29
+  - first:
+      213: 6505507934842934206
+    second: PumpKid3HSprite_30
+  - first:
+      213: 3044639711978171945
+    second: PumpKid3HSprite_31
+  - first:
+      213: -1023081100641638824
+    second: PumpKid3HSprite_32
+  - first:
+      213: -8262245291762454333
+    second: PumpKid3HSprite_33
+  - first:
+      213: -6097268426684581841
+    second: PumpKid3HSprite_34
+  - first:
+      213: 8589556213649726954
+    second: PumpKid3HSprite_35
+  - first:
+      213: -8295929434810929374
+    second: PumpKid3HSprite_36
+  - first:
+      213: 8740761423685075608
+    second: PumpKid3HSprite_37
+  - first:
+      213: -8251695207180960966
+    second: PumpKid3HSprite_38
+  - first:
+      213: 7651494126908937017
+    second: PumpKid3HSprite_39
+  - first:
+      213: 3995949010953436302
+    second: PumpKid3HSprite_40
+  - first:
+      213: 9024493693277211277
+    second: PumpKid3HSprite_41
+  - first:
+      213: 5989069378225906320
+    second: PumpKid3HSprite_42
+  - first:
+      213: -4398778181226701801
+    second: PumpKid3HSprite_43
+  - first:
+      213: 6420864603511093537
+    second: PumpKid3HSprite_44
+  - first:
+      213: -2561390996964075717
+    second: PumpKid3HSprite_45
+  - first:
+      213: 4554707473139363653
+    second: PumpKid3HSprite_46
+  - first:
+      213: -6077841121480528501
+    second: PumpKid3HSprite_47
+  - first:
+      213: 8290030139174401243
+    second: PumpKid3HSprite_48
+  - first:
+      213: -2391379378226600212
+    second: PumpKid3HSprite_49
+  - first:
+      213: 7918933376153157061
+    second: PumpKid3HSprite_50
+  - first:
+      213: -5787440561475203002
+    second: PumpKid3HSprite_51
+  - first:
+      213: 3829556544079808749
+    second: PumpKid3HSprite_52
+  - first:
+      213: -4096089148362919445
+    second: PumpKid3HSprite_53
+  - first:
+      213: 2576548298794398621
+    second: PumpKid3HSprite_54
+  - first:
+      213: -1670602318591674863
+    second: PumpKid3HSprite_55
+  - first:
+      213: 9159867012447004391
+    second: PumpKid3HSprite_56
+  - first:
+      213: 1205321481447273396
+    second: PumpKid3HSprite_57
+  - first:
+      213: 6737435589370879600
+    second: PumpKid3HSprite_58
+  - first:
+      213: 4642268996269661636
+    second: PumpKid3HSprite_59
+  - first:
+      213: 1244386184954926713
+    second: PumpKid3HSprite_60
+  - first:
+      213: 1516310551566675983
+    second: PumpKid3HSprite_61
+  - first:
+      213: -1194462656434247956
+    second: PumpKid3HSprite_62
+  - first:
+      213: 2482349441279156048
+    second: PumpKid3HSprite_63
+  - first:
+      213: 6163085400516970450
+    second: PumpKid3HSprite_64
+  - first:
+      213: 4408022551021469886
+    second: PumpKid3HSprite_65
+  - first:
+      213: 5447464534972057183
+    second: PumpKid3HSprite_66
+  - first:
+      213: 4466670543313631110
+    second: PumpKid3HSprite_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PumpKid3HSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a10679079874490800000000000000
+      internalID: -7762084316080760229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumpKid3HSprite_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360f513f6c4de09b0800000000000000
+      internalID: -5111914576072019869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumpKid3HSprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ba24a1d3698d2d0800000000000000
+      internalID: -3253685541597435086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumpKid3HSprite_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1319408bbc2715260800000000000000
+      internalID: 7084569908121735473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumpKid3HSprite_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0344b82fd9462a0800000000000000
+      internalID: -6745092676850011950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumpKid3HSprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8f1cc44e6e5db20800000000000000
+      internalID: 3158684581884983523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
