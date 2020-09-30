@@ -12,6 +12,10 @@ public class PlayerDeath : MonoBehaviour
         {
            health --;
         }
+        if (collision.CompareTag("Heal"))
+        {
+            health = 3;
+        }
         if (health <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
