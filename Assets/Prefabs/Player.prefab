@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 4724394464712438806}
   - component: {fileID: 5764189969019335193}
   - component: {fileID: 1489279368}
+  - component: {fileID: 1733891122}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,7 +184,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4724394464712438812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 43a7343b03508af41b8dd5142319a3d3, type: 2}
   m_CullingMode: 0
@@ -194,3 +195,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1733891122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724394464712438812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c80a18ea76b044e8d03c935ba43299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowHealth: {fileID: -6455293223269760100, guid: 13c3e47ad933d7a4eac5f57a6ee2eb2a,
+    type: 3}
+  mediumHealth: {fileID: 7586872554417779743, guid: e1c6941663a253948aae545b513e6367,
+    type: 3}
+  fullHealth: {fileID: -7762084316080760229, guid: 4552a7e0597251941849b7e0ec21fae9,
+    type: 3}
+  playerDeath: {fileID: 5764189969019335193}

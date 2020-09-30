@@ -11,10 +11,13 @@ public class PlayerDeath : MonoBehaviour
         if (collision.CompareTag("Deadly"))
         {
            health --;
+            print("deadly");
         }
-        if (collision.CompareTag("Heal"))
+       else  if (collision.CompareTag("Heal"))
         {
             health = 3;
+            Destroy(collision.gameObject);
+            print("health");
         }
         if (health <= 0)
         {
