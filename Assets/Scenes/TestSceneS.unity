@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &45066045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -246,7 +246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &193595506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -468,7 +468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1308857598
 Animator:
   serializedVersion: 3
@@ -570,7 +570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1928314603
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -678,7 +678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1984852620
 Animator:
   serializedVersion: 3
@@ -780,7 +780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2012163045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2116389532
 Animator:
   serializedVersion: 3
@@ -984,6 +984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BackgroundSpriteSheet_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 882666567819193687, guid: 237cd4538fee6e544be4219dda07195c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 882666567819193706, guid: 237cd4538fee6e544be4219dda07195c,
         type: 3}
@@ -1120,6 +1125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lollipop
       objectReference: {fileID: 0}
+    - target: {fileID: 1258304024519958901, guid: fb4e6f622cd64b346866fb4b4650836a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb4e6f622cd64b346866fb4b4650836a, type: 3}
 --- !u!1001 &2393816096469726821
@@ -1133,6 +1143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CandyCorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 2393816096771943082, guid: 602d5d094a595624ca6de421a9f86d18,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2393816096771943092, guid: 602d5d094a595624ca6de421a9f86d18,
         type: 3}
@@ -1258,6 +1273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealSpriteSheet_0
       objectReference: {fileID: 0}
+    - target: {fileID: 3555349698319990918, guid: 17f9ff20911a29a4e9e5654e56a2eb39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f9ff20911a29a4e9e5654e56a2eb39, type: 3}
 --- !u!1001 &4086916762879230161
@@ -1336,6 +1356,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086916762660255917, guid: 1482739f96c4fdb43bdde5419ab1e634,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4086916762660255919, guid: 1482739f96c4fdb43bdde5419ab1e634,
         type: 3}
@@ -1420,6 +1445,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4724394464712438812, guid: 89e4f524d18021540b7695a0bd8071f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e4f524d18021540b7695a0bd8071f1, type: 3}
 --- !u!1001 &4895064398556589924
@@ -1489,6 +1519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: KvikkLunsj
       objectReference: {fileID: 0}
+    - target: {fileID: 4895064398942756807, guid: f74344b3cb6dfea43bda9cec5ec6fa7f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f74344b3cb6dfea43bda9cec5ec6fa7f, type: 3}
 --- !u!1001 &5436706372075048200
@@ -1502,6 +1537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Schmores
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436706371209957773, guid: 8175c192bd3af14428547e157e638d43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5436706371209957775, guid: 8175c192bd3af14428547e157e638d43,
         type: 3}
