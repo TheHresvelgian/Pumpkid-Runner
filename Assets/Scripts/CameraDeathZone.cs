@@ -9,10 +9,6 @@ public class CameraDeathZone : MonoBehaviour
     {
         if (coll.CompareTag("Deadly") || coll.CompareTag("CandyCorn") || coll.CompareTag("KvikkLunsj") || coll.CompareTag("Lollipop") || coll.CompareTag("Schmores"))
         {
-            if (coll.CompareTag("KvikkLunsj"))
-            {
-                RandomCandy.KvikkLunsjOnScreen = false;
-            }
             Destroy(coll.gameObject);
         }
     }
