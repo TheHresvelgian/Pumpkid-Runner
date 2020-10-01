@@ -4,32 +4,32 @@ using UnityEngine;
 
 public class PickUpScript : MonoBehaviour
 {
-    public int _score;
+    public int score;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("CandyCorn"))
         {
-            _score = _score+1;
+            score = score+1;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Lollipop"))
         {
-            _score = _score+3;
+            score = score+3;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Schmores"))
         {
-            _score = _score+5;
+            score = score+5;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("KvikkLunsj"))
         {
-            _score = _score+10;
+            score = score+10;
             Destroy(other.gameObject);
         }
     }
     private void FixedUpdate()
     {
-        print(_score);
+       // print(_score);
     }
 }

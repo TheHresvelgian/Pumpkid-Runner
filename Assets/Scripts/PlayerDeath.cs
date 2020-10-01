@@ -21,10 +21,7 @@ public class PlayerDeath : MonoBehaviour
         }
        
     }
-    private void Update()
-    {
-        print(health);
-    }
+    
     public void Death ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
