@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class NPCPatrol : MonoBehaviour
 {
+    private Animator _anim;
 
     private Rigidbody2D _rigidBody;
     private float _speed = 2f;
@@ -17,6 +18,7 @@ public class NPCPatrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _anim = GetComponent<Animator>();
         _rigidBody = GetComponent<Rigidbody2D>();
         _direction = _negativeDir;
     }
@@ -26,11 +28,18 @@ public class NPCPatrol : MonoBehaviour
     {
         if (_directionBool)
         {
+            _anim.SetFloat("yDir", _direction);
+            _anim.SetFloat("xDir", 0);
+            
             // Vertical movement
             _rigidBody.velocity = new Vector3(0f, _direction * _speed, 0f);
         }
         else
         {
+            transform.localScale = new Vector3(_direction, 1, 1);
+
+            _anim.SetFloat("xDir", _direction);
+            _anim.SetFloat("yDir", 0);
             // Horizontal Movement
             _rigidBody.velocity = new Vector3(_direction * _speed, 0f, 0f);
         }
@@ -46,7 +55,7 @@ public class NPCPatrol : MonoBehaviour
             }
             else { _direction = _negativeDir;  }
 
-            transform.localScale = new Vector3(_direction, 1, 1);
+            
         }
     }
 }
