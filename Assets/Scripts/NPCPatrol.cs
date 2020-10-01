@@ -7,7 +7,7 @@ public class NPCPatrol : MonoBehaviour
 {
 
     private Rigidbody2D _rigidBody;
-    private float _speed = 5f;
+    private float _speed = 2f;
     private float _direction;
     private float _negativeDir = -1f;
     private float _positiveDir = 1f;
