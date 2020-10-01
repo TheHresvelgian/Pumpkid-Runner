@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int _speed = 4;
     private Rigidbody2D _rigdigBody;
     private Vector2 _moveVector;
-    public int constantSpeed = 4;
+    public int constantSpeed = 6;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,15 +27,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            constantSpeed = 2;
+            constantSpeed = 3;
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            constantSpeed = 8;
+            constantSpeed = 9;
         }
         else
         {
-            constantSpeed = 4;
+            constantSpeed = 6;
         }
         _rigdigBody.velocity = new Vector2(constantSpeed, _moveVector.y * _speed);
     }
