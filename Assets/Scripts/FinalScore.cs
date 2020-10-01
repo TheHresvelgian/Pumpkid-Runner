@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class FinalScore : MonoBehaviour
 {
     public Text finalScore;
-    PickUpScript pickUp;
+ //   PickUpScript pickUp;
   //  public int scoreD = PickUpScript._score;
    
-    private void Start()
+    private void Update ()
     {
-        
-        // finalScore.text = scoreD.ToString("0");
+        // finalScore.text = pickUp.score.ToString("0");
+        finalScore.text = PickUpScript.score.ToString("0");
     }
 }

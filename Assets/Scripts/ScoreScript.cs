@@ -11,12 +11,13 @@ public class ScoreScript : MonoBehaviour
     public int scoreD;
     private void Start()
     {
-       scoreD = player.GetComponent<PickUpScript>().score;
+      // scoreD = player.GetComponent<PickUpScript>().score;
     }
     private void Update()
     {
-        scoreD = player.GetComponent<PickUpScript>().score;
-        finalScore.text = scoreD.ToString("0");
+        // scoreD = player.GetComponent<PickUpScript>().score;
+       // finalScore.text = scoreD.ToString("0");
+        finalScore.text = PickUpScript.score.ToString("0");
     }
 
 }

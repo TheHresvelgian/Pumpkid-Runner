@@ -8,6 +8,7 @@ public class DeathScreen : MonoBehaviour
     public void LoadMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        PickUpScript.score = 0;
     }
 
     public void QuitGame()

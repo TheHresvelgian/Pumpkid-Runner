@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickUpScript : MonoBehaviour
 {
-    public int score;
+    public static int score;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("CandyCorn"))
