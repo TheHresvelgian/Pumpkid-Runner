@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 882666567819193684}
   - component: {fileID: 6271369999578540793}
   - component: {fileID: 566391895401825320}
+  - component: {fileID: 2647445547639092559}
   m_Layer: 0
   m_Name: BackgroundSpriteSheet_0
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -8787264852723620008, guid: 8c3b57c4c18b31b43ba22f053fb15eff,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -156,3 +157,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 0.1}
   m_EdgeRadius: 0
+--- !u!114 &2647445547639092559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882666567819193687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19277ab74dd7cfe449808db5f857aaaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objects: []

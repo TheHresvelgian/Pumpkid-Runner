@@ -14,6 +14,7 @@ public class backgroundLoop : MonoBehaviour
     {
         mainCamera = gameObject.GetComponent<Camera>();
         screenBounds = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, mainCamera.transform.position.z));
+
         foreach (GameObject obj in levels)
         {
             loadChildObjects(obj);
@@ -23,6 +24,7 @@ public class backgroundLoop : MonoBehaviour
     {
         float objectWidth = obj.GetComponent<SpriteRenderer>().bounds.size.x - choke;
         int childsNeeded = (int)Mathf.Ceil(screenBounds.x * 2 / objectWidth);
+
         GameObject clone = Instantiate(obj) as GameObject;
         for (int i = 0; i <= childsNeeded; i++)
         {
@@ -41,7 +43,9 @@ public class backgroundLoop : MonoBehaviour
         {
             GameObject firstChild = children[1].gameObject;
             GameObject lastChild = children[children.Length - 1].gameObject;
+
             float halfObjectWidth = lastChild.GetComponent<SpriteRenderer>().bounds.extents.x - choke;
+
             if (transform.position.x + screenBounds.x > lastChild.transform.position.x + halfObjectWidth)
             {
                 firstChild.transform.SetAsLastSibling();
@@ -56,12 +60,15 @@ public class backgroundLoop : MonoBehaviour
     }
     void Update()
     {
-
+        /*
+        // Code for moving the camera towards the right at the desired speed.
         Vector3 velocity = Vector3.zero;
         Vector3 desiredPosition = transform.position + new Vector3(scrollSpeed, 0, 0);
+
         Vector3 smoothPosition = Vector3.SmoothDamp(transform.position, desiredPosition, ref velocity, 0.3f);
         transform.position = smoothPosition;
 
+        */
     }
     void LateUpdate()
     {
