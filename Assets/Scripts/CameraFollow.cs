@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().Play("Theme");
+    }
     public Transform target;
     public float smoothTime = 0f;
     private Vector3 velocity = Vector3.zero;

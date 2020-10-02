@@ -38,12 +38,15 @@ public class PauseMenuScript : MonoBehaviour
 
     public void LoadMenu()
     {
+        FindObjectOfType<AudioManager>().Play("Click");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Resume();
     }
 
     public void QuitGame()
     {
         print("Hey");
+        FindObjectOfType<AudioManager>().Play("Click");
         Application.Quit();
     }
 }

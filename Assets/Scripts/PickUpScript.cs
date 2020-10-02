@@ -9,21 +9,25 @@ public class PickUpScript : MonoBehaviour
     {
         if (other.CompareTag("CandyCorn"))
         {
+            FindObjectOfType<AudioManager>().Play("CandyCorn");
             score = score+1;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Lollipop"))
         {
+            FindObjectOfType<AudioManager>().Play("Lollipop");
             score = score+3;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Schmores"))
         {
+            FindObjectOfType<AudioManager>().Play("Schmores");
             score = score+5;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("KvikkLunsj"))
         {
+            FindObjectOfType<AudioManager>().Play("KvikkLunsj");
             score = score+10;
             Destroy(other.gameObject);
         }

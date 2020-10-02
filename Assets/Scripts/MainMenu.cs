@@ -5,10 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public static bool gameIsPaused = false;
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().Play("MainScreenTheme");
+    }
     public void PlayGame()
     {
+        FindObjectOfType<AudioManager>().Play("Click");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         PickUpScript.score = 0;
+        Resume();
         
         Time.timeScale = 1f;
        
@@ -16,6 +23,13 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         print("Hey");
+        FindObjectOfType<AudioManager>().Play("Click");
         Application.Quit();
+    }
+    public void Resume()
+    {
+        Time.timeScale = 1f;
+
+        gameIsPaused = false;
     }
 }

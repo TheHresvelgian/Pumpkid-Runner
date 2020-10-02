@@ -10,11 +10,14 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.CompareTag("Deadly"))
         {
-           health --;
+            FindObjectOfType<AudioManager>().Play("Deadly");
+            health --;
             print("deadly");
+            
         }
        else  if (collision.CompareTag("Heal"))
         {
+            FindObjectOfType<AudioManager>().Play("Heal");
             health = 3;
             Destroy(collision.gameObject);
             print("health");
@@ -24,6 +27,7 @@ public class PlayerDeath : MonoBehaviour
     
     public void Death ()
     {
+        FindObjectOfType<AudioManager>().Play("Death");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
