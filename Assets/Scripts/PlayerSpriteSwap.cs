@@ -43,6 +43,7 @@ public class PlayerSpriteSwap : MonoBehaviour
         }
         if (playerDeath.health == 0)
         {
+            FindObjectOfType<AudioManager>().Play("Death");
             animator.SetInteger("health", 0);
         }
     }
