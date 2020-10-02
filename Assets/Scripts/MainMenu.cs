@@ -29,7 +29,7 @@ public class MainMenu : MonoBehaviour
     public void Resume()
     {
         Time.timeScale = 1f;
-
+        Cursor.visible = false;
         gameIsPaused = false;
     }
 }

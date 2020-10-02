@@ -8,6 +8,7 @@ public class DeathScreen : MonoBehaviour
     private void Start()
     {
         FindObjectOfType<AudioManager>().Play("DeathScreenTheme");
+        Cursor.visible = true;
     }
     public void LoadMenu()
     {
