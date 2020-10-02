@@ -33,6 +33,7 @@ public class PlayerSpriteSwap : MonoBehaviour
         }
         else if (playerDeath.health == 2)
         {
+
             animator.SetInteger("health", 2);
             
         }
