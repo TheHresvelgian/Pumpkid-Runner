@@ -7,7 +7,9 @@ public class HighScore : MonoBehaviour
 {
     private Transform entryContainer;
     private Transform entryTemplate;
-    
+
+    [SerializeField] float templateheight = 20f;
+
     private void Awake()
     {
         entryContainer = transform.Find("highscoreEntryContainer");
@@ -15,11 +17,12 @@ public class HighScore : MonoBehaviour
 
         entryTemplate.gameObject.SetActive(false);
 
+        
         for (int i = 0; i < 5; i++)
         {
             Transform entryTransform = Instantiate(entryTemplate, entryContainer);
             RectTransform entryRectTransform = entryTransform.GetComponent<RectTransform>();
-            entryRectTransform.anchoredPosition = new Vector2(0, -entryTemplate.position.y * i);
+            entryRectTransform.anchoredPosition = new Vector2(0, -templateheight * i);
             entryTransform.gameObject.SetActive(true);
 
             int rank = i + 1;
