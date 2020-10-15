@@ -32,4 +32,10 @@ public class MainMenu : MonoBehaviour
         Cursor.visible = false;
         gameIsPaused = false;
     }
+    public void HighScoreMenu()
+    {
+        FindObjectOfType<AudioManager>().Play("Click");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        
+    }
 }

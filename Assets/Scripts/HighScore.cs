@@ -13,8 +13,14 @@ public class HighScore : MonoBehaviour
     
     private List<Transform> highscoreEntryTransformList;
 
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().Play("MainScreenTheme");
+    }
+
     private void Awake()
     {
+        FindObjectOfType<AudioManager>().Play("MainScreenTheme");
         entryContainer = transform.Find("highscoreEntryContainer");
         entryTemplate = entryContainer.Find("highscoreEntryTemplate");
 
@@ -53,7 +59,11 @@ public class HighScore : MonoBehaviour
         Transform entryTransform = Instantiate(entryTemplate, container);
         RectTransform entryRectTransform = entryTransform.GetComponent<RectTransform>();
         entryRectTransform.anchoredPosition = new Vector2(0, -templateheight * transformList.Count);
-        entryTransform.gameObject.SetActive(true);
+        if (transformList.Count < 5)
+        {
+            entryTransform.gameObject.SetActive(true);
+        }
+        
 
         int rank = transformList.Count + 1;
         string rankString;
@@ -69,12 +79,15 @@ public class HighScore : MonoBehaviour
         entryTransform.Find("Score").GetComponent<Text>().text = highscoreEntry.score.ToString("0"); ;
         entryTransform.Find("Name").GetComponent<Text>().text = highscoreEntry.name;
 
+        entryTransform.Find("Background").gameObject.SetActive(rank % 2 == 1);
         transformList.Add(entryTransform);
+        
+      
     }
 
     private void AddHighScoreEntry (int score, string name)
     {
-        HighscoreEntry highscoreEntry = new HighscoreEntry { score = score, name = name };
+        HighscoreEntry highscoreEntry = new HighscoreEntry { score = PickUpScript.score, name = name };
 
         string jsonString = PlayerPrefs.GetString("HighScoreTable");
         Highscores highscores = JsonUtility.FromJson<Highscores>(jsonString);
