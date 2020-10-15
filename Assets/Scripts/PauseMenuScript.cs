@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenuScript : MonoBehaviour
 {
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
+   
 
     // Update is called once per frame
     void Update()
@@ -41,7 +43,18 @@ public class PauseMenuScript : MonoBehaviour
     public void LoadMenu()
     {
         FindObjectOfType<AudioManager>().Play("Click");
+     
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Resume();
+        Cursor.visible = true;
+        
+    }
+
+    public void ScoresMenu()
+    {
+        FindObjectOfType<AudioManager>().Play("Click");
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         Resume();
         Cursor.visible = true;
     }

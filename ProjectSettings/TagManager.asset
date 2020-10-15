@@ -10,6 +10,8 @@ TagManager:
   - KvikkLunsj
   - Deadly
   - Heal
+  - Flip
+  - Don't destroy
   layers:
   - Default
   - TransparentFX

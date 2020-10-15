@@ -3,23 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class ScoreMenuScript : MonoBehaviour
 {
     public static bool gameIsPaused = false;
-    private void Start()
+    public void LoadMenu()
     {
-        FindObjectOfType<AudioManager>().Play("MainScreenTheme");
+        FindObjectOfType<AudioManager>().Play("Click");
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        
+        Cursor.visible = true;
+
     }
+
     public void PlayGame()
     {
         FindObjectOfType<AudioManager>().Play("Click");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         PickUpScript.score = 0;
         Resume();
-        
+
         Time.timeScale = 1f;
-       
     }
+
     public void QuitGame()
     {
         print("Hey");
@@ -31,12 +37,5 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1f;
         Cursor.visible = false;
         gameIsPaused = false;
-    }
-    public void HighScoreMenu()
-    {
-        FindObjectOfType<AudioManager>().Play("Click");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
-        Cursor.visible = true;
-
     }
 }
