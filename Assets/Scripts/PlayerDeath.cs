@@ -39,5 +39,6 @@ public class PlayerDeath : MonoBehaviour
     {
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        HighscoreTable.AddHighscoreEntry(PickUpScript.score, PlayerPrefs.GetString("name"));
     }
 }
