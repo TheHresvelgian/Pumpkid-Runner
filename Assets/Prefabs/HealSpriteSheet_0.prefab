@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3555349698319990916}
   - component: {fileID: 3555349698319990919}
   - component: {fileID: 1999357784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HealSpriteSheet_0
   m_TagString: Heal
   m_Icon: {fileID: 0}
