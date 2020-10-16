@@ -20,9 +20,8 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.CompareTag("Deadly"))
         {
-            
             health --;
-            
+            collision.GetComponent<Collider2D>().enabled = false;
         }
        else  if (collision.CompareTag("Heal"))
         {
